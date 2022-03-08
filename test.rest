@@ -1,0 +1,14 @@
+GET http://localhost:5000/profiles
+
+##
+
+
+POST http://localhost:5000/profiles
+Content-Type: application/json
+
+{
+    "Username":"Mohan__129",
+    "Name":"Adarsh",
+    "Age":34,
+    "Gender":"Male"
+}

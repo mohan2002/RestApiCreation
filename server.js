@@ -18,7 +18,7 @@ const ProfilessRouter = require('./routes/Profiles')
 app.use('/profiles',ProfilessRouter)
 
 
-const PORT = process.env.PORT
-app.listen(5000,() => {
+const PORT = 5000 || process.env.PORT
+app.listen(PORT,() => {
     console.log("Server started");
 })
